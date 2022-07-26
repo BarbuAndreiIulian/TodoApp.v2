@@ -1,0 +1,106 @@
+ *{
+  margin: 0;
+  padding:0;
+  font-family: sans-serif;
+ }
+ .complete{
+  text-decoration: line-through
+ }
+
+ .App{
+  min-height:100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background-color:  #141a2f
+ }
+
+ .form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: auto;
+  margin-bottom: 0rem;
+  margin-top: 2rem;
+  
+  
+ }
+ .elements{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+   margin-top: 2rem;
+ }
+
+.todoitem{
+  margin-left: 2rem;
+  margin-right: 2rem;
+  margin-top: 1rem;
+}
+.todoitem div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding:0.7rem;
+  border-radius: 0.3rem;
+  background: hsla(186, 100%, 69%, 1);
+  color: rgb(255, 255, 255);
+  
+
+  /* GRADIENT START */
+  background: hsla(217, 100%, 50%, 1);
+
+  background: linear-gradient(0deg, hsla(217, 100%, 50%, 1) 0%, hsla(186, 100%, 69%, 1) 100%);
+  
+  background: -moz-linear-gradient(0deg, hsla(217, 100%, 50%, 1) 0%, hsla(186, 100%, 69%, 1) 100%);
+  
+  background: -webkit-linear-gradient(0deg, hsla(217, 100%, 50%, 1) 0%, hsla(186, 100%, 69%, 1) 100%);
+  
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#0061FF", endColorstr="#60EFFF", GradientType=1 );
+  /* GRADIENT END */
+}
+
+.todoitem h4{
+  padding-right: 10rem;
+}
+
+.todoitem div button{
+  margin-right: 0.2rem;
+  
+}
+
+.title{
+  color: white;
+  margin-bottom: 1.5rem;
+}
+
+input{
+  border: 0;
+  outline: 0;
+  padding: 5px;
+  border: solid 4px rgb(248, 91, 0) ;
+  background-color:  #141a2f;
+  color:white;
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+  
+}
+.form button{
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  background-color: rgb(248, 91, 0);
+   
+  border: 0;
+  outline: 0;
+  color: white;
+  padding: 9px;
+   
+}
+
+.todoitem button{
+  font-size: 120%;
+  background-color: inherit;
+  border: 0;
+}
